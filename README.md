@@ -23,6 +23,42 @@ This project uses a Proximal Policy Optimization (PPO) agent to train a quantum 
     pip install -r requirements.txt
     ```
 
+## Setting Up the Development Environment
+
+[Download](https://www.anaconda.com/download) and install Anaconda on Linux:
+
+```bash
+chmod +x <filename>.sh && ./<filename>.sh
+```
+
+### PyTorch Setup
+
+- Create and activate the environment:
+
+```bash
+conda env create -f torch_env.yml && conda activate torch-qiskit-gpu
+```
+
+- Verify GPU:
+
+```bash
+python -c "import torch; [print(f'GPU {i}: {torch.cuda.get_device_name(i)}') for i in range(torch.cuda.device_count())]"
+```
+
+### TensorFlow Setup
+
+- Create and activate the environment:
+
+```bash
+conda env create -f tf_gpu_env.yml && conda activate tf-qiskit-gpu
+```
+
+- Verify GPU:
+
+```bash
+python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+```
+
 ### Running the Code
 
 To start the training process, run the `main.py` script with the configuration file as a command-line argument:
