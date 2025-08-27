@@ -13,10 +13,8 @@
 <!-- Title: -->
 <div align='center'>
   <h1><a href="https://quantum.ntu.edu.tw/?p=9587"> Qiskit 量子計算 Hackathon 2025</a></h1>
-  <h2> Challenge: Learning Efficient Variational Quantum Circuits with Deep Reinforcement Learning </h2>
+  <h2> Challenge: Deep Quantum Reinforcement Learning for Efficient Variational Quantum Circuits</h2>
 </div>
-
-Quantum Reinforcement Learning for VQE
 
 This project uses a Proximal Policy Optimization (PPO) agent to train a quantum circuit for finding the ground state energy of a molecule (LiH) using the Variational Quantum Eigensolver (VQE) algorithm.## Introduction
 
