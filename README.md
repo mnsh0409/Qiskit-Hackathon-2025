@@ -7,7 +7,7 @@
 
 <!-- Logo: -->
 <div align="center">
-    <img src="assets/ntu.png" height="400" width="400" alt="Logo">
+    <img src="qiskit-hackathon-taiwan-2025-1/assets/ntu.png" height="400" width="400" alt="Logo">
 </div>
 
 <!-- Title: -->
